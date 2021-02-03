@@ -26,7 +26,7 @@ main{
   max-width: 500px;
 }
 .top-container-text p:first-of-type{
-  margin-top: 2em;
+  margin-top: 1.3em;
   font-size: 2em;
   font-weight: 200;
   color: hsl(234, 12%, 34%)
@@ -108,6 +108,13 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+}
+
+@media (max-width: 400px){
+  .top-container-text{
+    padding: 0 40px;
   }
 
 }
